@@ -3,11 +3,11 @@ using Infrastructure;
 using Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
 
 
 namespace Web
@@ -28,7 +28,17 @@ namespace Web
             
             services.AddDbContext<DataContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("PortfolioDB")));
+            //IdentityUser et IdentityRoleGestion vont traiter ou sauvegarder au niveau de la base de données DataContext.
+            services.AddIdentity<IdentityUser, IdentityRole>(options => {
+            
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+            }).AddEntityFrameworkStores<DataContext>();
+           
+        
             services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,7 +58,7 @@ namespace Web
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

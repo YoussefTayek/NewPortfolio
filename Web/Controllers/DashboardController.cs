@@ -11,9 +11,11 @@ using Web.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Web.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
         private readonly IUnitOfWork<Owner> _owner;
@@ -57,6 +59,7 @@ namespace Web.Controllers
         }
 
         // GET: Dashboard/Create
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
@@ -100,6 +103,7 @@ namespace Web.Controllers
         }
 
         // GET: Dashboard/Edit/5
+        [HttpGet]
         public IActionResult Edit(Guid? id)
         {
             if (id == null)
@@ -128,7 +132,6 @@ namespace Web.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        
         public IActionResult Edit(Guid id, PortfolioViewModel model)
         {
             if (ModelState.IsValid)
@@ -186,6 +189,7 @@ namespace Web.Controllers
         }
 
         // GET: Dashboard/Delete/5
+        [HttpGet]
         public IActionResult Delete(Guid? id)
         {
             if (id == null)

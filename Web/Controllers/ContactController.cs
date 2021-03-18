@@ -1,3 +1,4 @@
+using System.Net;
 using System.ComponentModel.DataAnnotations;
 using Core.Entities;
 using Core.Interfaces;
@@ -33,7 +34,7 @@ namespace Web.Controllers
             if(string.IsNullOrEmpty(contact.Name) || string.IsNullOrEmpty(contact.Email) ||
                string.IsNullOrEmpty(contact.Phone) || string.IsNullOrEmpty(contact.Message))
             {
-               return View();
+               return RedirectToAction("Index","Home");
             }
             else
             {

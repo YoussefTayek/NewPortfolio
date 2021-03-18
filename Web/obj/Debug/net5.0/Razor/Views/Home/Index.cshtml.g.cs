@@ -27,6 +27,13 @@ using Core.Entities;
 #line hidden
 #nullable disable
 #nullable restore
+#line 5 "C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\Views\Home\Index.cshtml"
 using Web.ViewModels;
 
@@ -34,7 +41,7 @@ using Web.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf36", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e8492da9d7efd7fe4fd37681c6452bbe5471e16", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c4e64e98ff6897c4b4c671f06309e65af1b448a", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("masthead-avatar mb-5"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -81,7 +88,7 @@ using Web.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        <!-- Masthead-->\r\n        <header class=\"masthead bg-primary text-white text-center\">\r\n            <div class=\"container d-flex align-items-center flex-column\">\r\n                <!-- Masthead Avatar Image-->\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf367089", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf367290", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -170,7 +177,7 @@ AddHtmlAttributeValue("", 355, Model.Owner.Avatar, 355, 19, false);
                                         <div class=""portfolio-item-caption-content text-center text-white""><i class=""fas fa-plus fa-3x""></i></div>
                                     </div>
                                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3611982", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3612183", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -250,7 +257,7 @@ AddHtmlAttributeValue("", 2540, p.ImageUrl, 2540, 11, false);
                     <div class=""col-lg-8 mx-auto"">
                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3616772", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3616973", async() => {
                 WriteLiteral(@"
                             <div class=""control-group"">
                                 <div class=""form-group floating-label-form-group controls mb-0 pb-2"">
@@ -355,7 +362,7 @@ WriteAttributeValue("", 8390, item.Id, 8390, 8, false);
                                             </div>
                                             <!-- Portfolio Modal - Image-->
                                             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3624148", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5c3a0fd4ed2d48a1a7651c820d3e48fd8b5acf3624349", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

@@ -15603,6 +15603,11 @@
   "RootNamespace": "Web",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\Account\\login.cshtml",
+      "TargetPath": "Views\\Account\\login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\Contact\\Index.cshtml",
       "TargetPath": "Views\\Contact\\Index.cshtml",
       "FileKind": "mvc"
@@ -15623,6 +15628,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\Account\\register.cshtml",
+      "TargetPath": "Views\\Account\\register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15640,6 +15650,11 @@
     {
       "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\Shared\\_contact.cshtml",
       "TargetPath": "Views\\Shared\\_contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\rahma\\Desktop\\PersonalProjects\\NewPortfolio\\Web\\Views\\Account\\logout.cshtml",
+      "TargetPath": "Views\\Account\\logout.cshtml",
       "FileKind": "mvc"
     },
     {

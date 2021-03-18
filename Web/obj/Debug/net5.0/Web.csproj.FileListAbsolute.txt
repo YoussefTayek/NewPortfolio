@@ -178,3 +178,11 @@ C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Web.dl
 C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\ref\Web.dll
 C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Web.pdb
 C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Web.genruntimeconfig.cache
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Razor\Views\Account\register.cshtml.g.cs
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Razor\Views\Account\logout.cshtml.g.cs
+C:\Users\rahma\Desktop\PersonalProjects\NewPortfolio\Web\obj\Debug\net5.0\Razor\Views\Account\login.cshtml.g.cs

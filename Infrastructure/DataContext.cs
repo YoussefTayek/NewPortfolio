@@ -3,10 +3,11 @@ using System.Reflection.PortableExecutable;
 using Microsoft.EntityFrameworkCore;
 using Core.Entities;
 using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Infrastructure
 {
-    public class DataContext : DbContext
+    public class DataContext : IdentityDbContext
     {
         public DataContext(DbContextOptions<DataContext> options): 
             base(options)
